@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Letters for Razane</title>
+  <link rel="stylesheet" href="./styles.css?v=2">
+</head>
+<body>
+  <main class="shell">
+    <section class="frame">
+      <canvas id="game" width="480" height="270" aria-label="Letters for Razane game"></canvas>
+      <div class="caption">
+        <h1>Letters for Razane</h1>
+        <p>Start from the menu, move with WASD or arrow keys, collect the four letters, then read the rainbow letter in the white room. Use E, Space, or Enter for interactions.</p>
+        <div class="caption-tools">
+          <button id="music-toggle" class="music-toggle" type="button">Music: Start</button>
+        </div>
+      </div>
+      <div id="youtube-audio-host" class="youtube-audio-host" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <script src="./src/main.js?v=13" defer></script>
+</body>
+</html>
